@@ -44,13 +44,17 @@ body::after{
     padding: 30px 0px;
 }
 .about_text{
-    width: 50%;
+    width: 30%;
     color: #14464b;
     text-align: center;
     padding-top: 50px;
+    border: 2px solid black;
+    border-radius:10px;
+    background-color:white;
 }
 .about_image{
     width: 50%;
+    text-align: center;
 }
 .login{
     padding: 0px 350px;

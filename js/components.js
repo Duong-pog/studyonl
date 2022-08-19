@@ -46,33 +46,31 @@ components.homeScreen = `
         </div>
       </div>
 
-      <div class="introduction login">
-        <h3>Join us in bringing the world together with the best gaming experience</h3>
-        <a class="special" href="#">Create an account</a>
-      </div>
       </main>
       <footer class="footer-basic-centered">
       <p class="footer-links1">
-        <a href="home.html">Home</a>
+        <a href="home.html">Trang chủ</a>
   ·
-        <a href="forum.html">Forum</a>
+        <a href="">Toán</a>
   ·
-        <a target=_blank href="https://www.google.com/maps/place/H%C3%A0+N%E1%BB%99i,+Ho%C3%A0n+Ki%E1%BA%BFm,+H%C3%A0+N%E1%BB%99i,+Vi%E1%BB%87t+Nam/@21.022736,105.8018583,13z/data=!3m1!4b1!4m5!3m4!1s0x3135ab9bd9861ca1:0xe7887f7b72ca17a9!8m2!3d21.02811!4d105.8340454?hl=vi"">Getting Here</a>
+        <a href="">Văn</a>
   ·
-        <a href="tickets.php">Tickets</a>
+        <a href="">Tiếng Anh</a>
   ·
-        <a href="help.html">Contact</a>
+        <a href="">KHTN</a>
+  .      
+        <a href="">KHXH</a>
       </p>
   
       <p class="footer-links">
-          <a href="#">Privacy Policy</a>
+          <a href="#">Chính sách bảo mật</a>
           ·
           <a href="#">Terms of Use</a>
           ·
           <a href="">&amp;Gameric</a>
       </p>
   
-      <p class="footer-company-name">Copyright &copy; 2020</p>
+      <p class="footer-company-name">Copyright &copy; 2022</p>
   
   </footer>
   `
