@@ -19,7 +19,7 @@ components.homeScreen = `
 					<a style="font-size: 25px; color: rgb(36,191,255); text-decoration: none;" href="../html/forum.html">Visit the Forum</a>
         </div>
         <div class="about_image">
-          <img src="../img/forum_image.png" width="600px" height="350px" alt="">
+          <img src="../img/forum_image.gif" width="600px" height="350px" alt="">
         </div>
       </div>
 
