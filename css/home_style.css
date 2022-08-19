@@ -38,14 +38,14 @@ body::after{
 }
 .about{
     display: flex;
-    background-color:rgb(27,37,50);
+    background-color:#ffdd64;
     margin: 0px -16px 0px -16px;
     padding-left: 5px;
     padding: 30px 0px;
 }
 .about_text{
     width: 50%;
-    color: whitesmoke;
+    color: #14464b;
     text-align: center;
     padding-top: 50px;
 }
