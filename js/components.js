@@ -2,7 +2,7 @@ const components = {};
 components.homeScreen = `
   <main>
   <div class="welcome">
-      <h1>Welcome to {đặt tên ở đây}</h1>
+      <h1>Welcome to ELeMat</h1>
       </div>
       <div class="introduction">
         <h3>What is ?</h3>
