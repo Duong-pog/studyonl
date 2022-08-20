@@ -65,9 +65,9 @@ components.homeScreen = `
       <p class="footer-links">
           <a href="#">Chính sách bảo mật</a>
           ·
-          <a href="#">Terms of Use</a>
+          <a href="#">Điều khoản</a>
           ·
-          <a href="">&amp;Gameric</a>
+          <a href="">&amp;ELeMat</a>
       </p>
   
       <p class="footer-company-name">Copyright &copy; 2022</p>

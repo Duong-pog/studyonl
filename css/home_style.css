@@ -38,6 +38,7 @@ body::after{
 }
 .about{
     display: flex;
+    justify-content: center;
     background-color:#ffdd64;
     margin: 0px -16px 0px -16px;
     padding-left: 5px;
