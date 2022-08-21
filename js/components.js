@@ -2,12 +2,12 @@ const components = {};
 components.homeScreen = `
 <main>
     <div class="welcome">
-      <img style="position:absolute; top:15%; left:5%" width="400px" height="500px" src="../img/girl.png" alt="">
+      <img style="position:absolute; top:10%; left:5%" width="500px" height="625px" src="../img/girl.png" alt="">
       <div class="first-text">
-            <span style="font-family: 'Lora', serif;, cursive; color:#14464b; font-size:40px">Welcome To</span>
+            <span style="font-family: 'Lora', serif;, cursive; color:#14464b; font-size:50px">Welcome To</span>
             <img width="600px" height = '350px' src="../img/title.gif" alt="">
-            <span class = 'btn'>
-                  <span id="discover" style="font-family: 'Quicksand', sans-serif ;background-color: #14464b;border-radius:30px; padding:0px 6px">
+            <span class = 'discover'>
+                  <span id="discover" style="font-family: 'Quicksand', sans-serif ;background-color: #14464b;font-size:40px;border-radius:30px; padding:0px 6px">
                         Khám phá
                   </span>
             </span>

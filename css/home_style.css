@@ -24,13 +24,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    left:50%;
+    left:45%;
     top:15%;
     
 }
-.btn{
+.discover{
     background-color: #a7cffa;
-    width: 30%;
     cursor: pointer;
     padding:10px;
     border-radius: 30px ;
