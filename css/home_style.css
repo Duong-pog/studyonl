@@ -7,12 +7,12 @@
     content:url(../img/homepage-bg.jpg);   
  } */
 .welcome{
-    background-image: url(../img/background.png);
+    background-image: url(../img/background.gif);
     background-repeat: no-repeat;
     background-color: rgb(249, 250, 251) ;
     background-size: 100% 100%;
     height: 100vh;
-    font-size: 26px;
+    font-size: 10%;
     text-align: center;
     color: white;
     position: relative;
@@ -24,8 +24,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    left:45%;
-    top:15%;
+    left:108vh;
+    top:15vh;
     
 }
 .discover{
@@ -33,7 +33,11 @@
     cursor: pointer;
     padding:10px;
     border-radius: 30px ;
-    
+    position: absolute;
+    top:75vh;
+    left:50vw;
+    width: 30%;
+    border: 5px solid #a7cffa
 }
 .about{
     background-image: url(../img/background1.gif);
@@ -47,14 +51,14 @@
 }
 .about_description{
     position:absolute;
-    top:1000px;
-    width:1000px;
+    top:150%;
+    width:60%;
     color:black;
     font-family: 'Noto Serif', serif;
 
 }
 .about_description li{
-    margin: 0;
+    margin-left: 10%;
 	padding: 10px 0 10px 55px;
 	list-style: none;
 	background-image: url("../img/bullet.png");

@@ -2,16 +2,13 @@ const components = {};
 components.homeScreen = `
 <main>
       <div class="welcome">
-        <img style="position:absolute; top:10%; left:5%" width="500px" height="625px" src="../img/girl.png" alt="">
         <div class="first-text">
               <span style="cursor:default;font-family: 'Lora', serif;, cursive; color:#14464b; font-size:50px">Welcome To</span>
-              <img width="600px" height = '350px' src="../img/title.gif" alt="">
-              <span class = 'discover'>
-                    <span id="discover" onclick="smoothScrollIntro()" style="font-family: 'Quicksand', sans-serif ;background-color: #14464b;font-size:40px;border-radius:30px; padding:0px 6px">
-                          Khám phá
-                    </span>
-              </span>
+              
         </div>
+        <span onclick="smoothScrollIntro()" class = 'discover' style="font-family: 'Quicksand', sans-serif ;background-color: #14464b;font-size:45px;border-radius:30px;">
+            Khám phá
+        </span>
       </div>
       <div class = 'about'>
             <ul class = 'about_description'>
