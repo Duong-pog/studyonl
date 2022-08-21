@@ -58,14 +58,14 @@
 .about_description{
     position:absolute;
     top:150%;
-    width:100%;
+    width:80%;
     color:black;
     font-family: 'Noto Serif', serif;
 
 }
 .about_description li{
     margin-left: 5%;
-    width:70%;
+    width:80%;
 	padding: 10px 0 10px 55px;
 	list-style: none;
 	background-image: url("../img/bullet.png");
@@ -78,7 +78,7 @@
 
 .about_description li:hover{
     font-size: 25px;
-    width:80%;
+    width:90%;
 }
 
 .mon_van{
@@ -90,16 +90,16 @@
     position: relative;
 }
 .mon_van_image{
-    width:70%; 
-    height: 100%;
+    width:68%; 
+    height:98%;
     position: absolute;
     top:10vh;
-    left:35vw;
+    left:30vw;
 }
 .mon_van_description{
     position:absolute;
     top:40%;
-    left:47%;
+    left:42%;
     font-size:200%;
     color:#14464b;
     font-family: 'Pacifico', cursive;
@@ -117,6 +117,7 @@
 }
 .mon_van_description li:hover{
     padding:8px 45px;
-    font-size:130%;
+    font-size:110%;
     background-size: 55px;
+    color:rgb(208, 28, 139);
 }
