@@ -1,19 +1,26 @@
 const components = {};
 components.homeScreen = `
 <main>
-    <div class="welcome">
-      <img style="position:absolute; top:10%; left:5%" width="500px" height="625px" src="../img/girl.png" alt="">
-      <div class="first-text">
-            <span style="font-family: 'Lora', serif;, cursive; color:#14464b; font-size:50px">Welcome To</span>
-            <img width="600px" height = '350px' src="../img/title.gif" alt="">
-            <span class = 'discover'>
-                  <span id="discover" style="font-family: 'Quicksand', sans-serif ;background-color: #14464b;font-size:40px;border-radius:30px; padding:0px 6px">
-                        Khám phá
-                  </span>
-            </span>
+      <div class="welcome">
+        <img style="position:absolute; top:10%; left:5%" width="500px" height="625px" src="../img/girl.png" alt="">
+        <div class="first-text">
+              <span style="cursor:default;font-family: 'Lora', serif;, cursive; color:#14464b; font-size:50px">Welcome To</span>
+              <img width="600px" height = '350px' src="../img/title.gif" alt="">
+              <span class = 'discover'>
+                    <span id="discover" onclick="smoothScrollIntro()" style="font-family: 'Quicksand', sans-serif ;background-color: #14464b;font-size:40px;border-radius:30px; padding:0px 6px">
+                          Khám phá
+                    </span>
+              </span>
+        </div>
       </div>
-    </div>
-
+      <div class = 'about'>
+            <ul class = 'about_description'>
+                        <li>Học liệu điện tử do chính học sinh lớp 12 thiết kế.</li>
+                        <li>Kiến thức Toán - Văn - Anh - KHTN - KHXH được tổng hợp logic, chuyên nghiệp, bắt mắt, dễ nhớ, đã được thông qua kiểm duyệt của các thầy cô dày dặn kinh nghiệm trong nhà trường.</li>
+                        <li>Kho đề phong phú, cập nhật liên tục. </li>
+                        <li>Phương thức ôn luyện, luyện thi gần gũi, thuận tiện ở bất cứ đâu.</li>
+            </ul>
+      </div>
 </main>
   `
   components.playScreen = `

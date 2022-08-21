@@ -33,41 +33,37 @@
     cursor: pointer;
     padding:10px;
     border-radius: 30px ;
-}
-/* @keyframes fadeIn_welcome{
-    from{
-        opacity: 0;
-        font-size: 60px;
-    }
-    to{
-        opacity: 1;
-    }
-}
-.introduction{
-    background-color: rgb(22, 30, 39);
-    margin: 0px -20px;
-    color: whitesmoke; 
-    font-size: 24px;
-    margin-bottom: 16px;
-    text-align: center;
+    
 }
 .about{
-    display: flex;
-    justify-content: center;
-    background-color:#ffdd64;
-    margin: 0px -16px 0px -16px;
-    padding-left: 5px;
-    padding: 30px 0px;
+    background-image: url(../img/background1.gif);
+    background-repeat: no-repeat;
+    background-color: rgb(249, 250, 251) ;
+    background-size: 100% 100%;
+    height: 100vh;
+    font-size: 22px;
+    color: white;
+    /* position: relative; */
 }
-.about_text{
-    width: 30%;
-    color: #14464b;
-    text-align: center;
-    padding-top: 50px;
-    border: 2px solid black;
-    border-radius:10px;
-    background-color:white;
+.about_description{
+    position:absolute;
+    top:1000px;
+    width:1000px;
+    color:black;
+    font-family: 'Noto Serif', serif;
+
 }
+.about_description li{
+    margin: 0;
+	padding: 10px 0 10px 55px;
+	list-style: none;
+	background-image: url("../img/bullet.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+    cursor:default;
+}
+/*
 .about_image{
     width: 50%;
     text-align: center;

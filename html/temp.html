@@ -3,46 +3,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Lora:wght@700&family=Noto+Serif:wght@700&family=Quicksand:wght@700&display=swap" rel="stylesheet">
 </head>
 <main>
-    <div class="welcome">
-      <img style="position:absolute; top:15%; left:5%" width="400px" height="500px" src="../img/girl.png" alt="">
-      <div class="first-text">
-            <span style="font-family: 'Bubblegum Sans', cursive; color:#14464b; font-size:40px">Welcome To</span>
-            <img width="600px" height = '350px' src="../img/title.png" alt="">
-            <span class = 'btn'>
-                  <span id="discover" style="background-color: #14464b;border-radius:30px; padding:6px">
-                        Khám phá
-                  </span>
-            </span>
+      <div class="welcome">
+        <img style="position:absolute; top:10%; left:5%" width="500px" height="625px" src="../img/girl.png" alt="">
+        <div class="first-text">
+              <span style="cursor:default;font-family: 'Lora', serif;, cursive; color:#14464b; font-size:50px">Welcome To</span>
+              <img width="600px" height = '350px' src="../img/title.gif" alt="">
+              <span class = 'discover'>
+                    <span id="discover" onclick="smoothScrollIntro()" style="font-family: 'Quicksand', sans-serif ;background-color: #14464b;font-size:40px;border-radius:30px; padding:0px 6px">
+                          Khám phá
+                    </span>
+              </span>
+        </div>
       </div>
-    </div>
-
+      <div class = 'about'>
+            <ul class = 'about_description'>
+                        <li>Học liệu điện tử do chính học sinh lớp 12 thiết kế.</li>
+                        <li>Kiến thức Toán - Văn - Anh - KHTN - KHXH được tổng hợp logic, chuyên nghiệp, bắt mắt, dễ nhớ, đã được thông qua kiểm duyệt của các thầy cô dày dặn kinh nghiệm trong nhà trường.</li>
+                        <li>Kho đề phong phú, cập nhật liên tục. </li>
+                        <li>Phương thức ôn luyện, luyện thi gần gũi, thuận tiện ở bất cứ đâu.</li>
+            </ul>
+      </div>
 </main>
-        <!-- <footer class="footer-basic-centered">
-        <p class="footer-links1">
-          <a href="home.html">Trang chủ</a>
-    ·
-          <a href="">Toán</a>
-    ·
-          <a href="">Văn</a>
-    ·
-          <a href="">Tiếng Anh</a>
-    ·
-          <a href="">KHTN</a>
-    .      
-          <a href="">KHXH</a>
-        </p>
-    
-        <p class="footer-links">
-            <a href="#">Chính sách bảo mật</a>
-            ·
-            <a href="#">Điều khoản</a>
-            ·
-            <a href="">&amp;ELeMat</a>
-        </p>
-    
-        <p class="footer-company-name">Copyright &copy; 2022</p>
-    
-    </footer> -->
+<script src="../js/scroll.js"></script>
