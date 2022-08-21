@@ -3,10 +3,10 @@ components.homeScreen = `
 <main>
       <div class="welcome">
         <div class="first-text">
-              <span style="cursor:default;font-family: 'Lora', serif;, cursive; color:#14464b; font-size:50px">Welcome To</span>
+              <span style="cursor:default;font-family: 'Lora', serif, cursive; color:#14464b; font-size:50px">Welcome To</span>
     
         </div>
-        <span onclick="smoothScrollIntro()" class = 'discover' style="">
+        <span onclick="smoothScrollIntro()" class = 'discover'>
             Khám phá
         </span>
       </div>
@@ -18,6 +18,17 @@ components.homeScreen = `
                         <li>Phương thức ôn luyện, luyện thi gần gũi, thuận tiện ở bất cứ đâu.</li>
             </ul>
       </div>
+
+      <div class = 'mon_van'>
+            <img class = 'mon_van_image' src="../img/anh_mon_van.png" alt="">
+            <ul class = 'mon_van_description'>
+                  <li>Thẻ nhớ nhân vật độc đáo</li>
+                  <li>Sơ đồ tư duy dễ hiểu</li>
+                  <li>Tài liệu nâng cao, uy tín</li>
+                  <li>Dàn ý chi tiết đầy đủ</li>
+            </ul>
+      </div>
+      
 </main>
   `
   components.playScreen = `
