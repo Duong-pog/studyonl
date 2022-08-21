@@ -58,13 +58,14 @@
 .about_description{
     position:absolute;
     top:150%;
-    width:60%;
+    width:100%;
     color:black;
     font-family: 'Noto Serif', serif;
 
 }
 .about_description li{
-    margin-left: 10%;
+    margin-left: 5%;
+    width:70%;
 	padding: 10px 0 10px 55px;
 	list-style: none;
 	background-image: url("../img/bullet.png");
@@ -77,6 +78,7 @@
 
 .about_description li:hover{
     font-size: 25px;
+    width:80%;
 }
 /*
 .about_image{
