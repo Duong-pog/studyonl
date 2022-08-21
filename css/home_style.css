@@ -24,20 +24,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    left:108vh;
+    left:53vw;
     top:15vh;
     
 }
 .discover{
-    background-color: #a7cffa;
     cursor: pointer;
     padding:10px;
-    border-radius: 30px ;
     position: absolute;
     top:75vh;
     left:50vw;
     width: 30%;
-    border: 5px solid #a7cffa
+    border: 5px solid #a7cffa;
+    font-family: 'Quicksand', sans-serif ;
+    background-color: #14464b;
+    font-size:45px;
+    border-radius:30px;
+    transition: 200ms;
+}
+.discover:hover{
+    background-color: #a7cffa;
 }
 .about{
     background-image: url(../img/background1.gif);
@@ -45,7 +51,7 @@
     background-color: rgb(249, 250, 251) ;
     background-size: 100% 100%;
     height: 100vh;
-    font-size: 22px;
+    font-size: 20px;
     color: white;
     /* position: relative; */
 }
@@ -66,6 +72,11 @@
 	background-position: left center;
 	background-size: 40px;
     cursor:default;
+    transition: 600ms;
+}
+
+.about_description li:hover{
+    font-size: 25px;
 }
 /*
 .about_image{

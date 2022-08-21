@@ -4,9 +4,9 @@ components.homeScreen = `
       <div class="welcome">
         <div class="first-text">
               <span style="cursor:default;font-family: 'Lora', serif;, cursive; color:#14464b; font-size:50px">Welcome To</span>
-              
+    
         </div>
-        <span onclick="smoothScrollIntro()" class = 'discover' style="font-family: 'Quicksand', sans-serif ;background-color: #14464b;font-size:45px;border-radius:30px;">
+        <span onclick="smoothScrollIntro()" class = 'discover' style="">
             Khám phá
         </span>
       </div>
