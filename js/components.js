@@ -1,78 +1,20 @@
 const components = {};
 components.homeScreen = `
-  <main>
-  <div class="welcome">
-      <h1>Welcome to ELeMat</h1>
+<main>
+    <div class="welcome">
+      <img style="position:absolute; top:15%; left:5%" width="400px" height="500px" src="../img/girl.png" alt="">
+      <div class="first-text">
+            <span style="font-family: 'Lora', serif;, cursive; color:#14464b; font-size:40px">Welcome To</span>
+            <img width="600px" height = '350px' src="../img/title.gif" alt="">
+            <span class = 'btn'>
+                  <span id="discover" style="font-family: 'Quicksand', sans-serif ;background-color: #14464b;border-radius:30px; padding:0px 6px">
+                        Khám phá
+                  </span>
+            </span>
       </div>
-      <div class="introduction">
-        <h3>What is ?</h3>
-        <p style="padding: 0px 300px; color: rgb(204,205,211); font-size: 20px;">’s mission is to bring the world together through gaming. This website has the best snake game ever. </p>
-        <h3>How popular?</h3>
-        <p style="padding: 0px 300px; color: rgb(204,205,211); font-size: 20px;"> is ranked as one of the most popular websites in the world.</p>
-      </div>
-      
+    </div>
 
-      <div class="about">
-        <div class="about_text">
-          <h1>Join the Community</h1>
-          <h3>Meet new people, join groups, form clans, chat in-game and more! With over 100 million potential friends (or enemies), the fun never stop.</h3>
-					<a style="font-size: 25px; color: rgb(36,191,255); text-decoration: none;" href="../html/forum.html">Visit the Forum</a>
-        </div>
-        <div class="about_image">
-          <img src="../img/forum_image.gif" width="600px" height="350px" alt="">
-        </div>
-      </div>
-
-
-      <div class="about">
-        <div class="about_image">
-          <img src="../img/electronics_image.png" width="600px" height="350px" alt="">
-        </div>
-        <div class="about_text">
-          <h1>Experience Our Best Snake Game</h1>
-          <h3>Get yourself ready to play our game.</h3>
-					<a style="font-size: 25px; color: rgb(36,191,255); text-decoration: none;" href="../html/electronics.html">Visit the Electronics shop</a>
-        </div>
-      </div>
-
-      <div class="about">
-        <div class="about_text">
-          <h1>Install add-ons for gaming experience</h1>
-          <h3>Download some of the most reliable softwares in the world. They help boosting your gaming experience as well as detecting viruses.</h3>
-					<a style="font-size: 25px; color: rgb(36,191,255); text-decoration: none;" href="../html/softwares.html">Visit the Software</a>
-        </div>
-        <div class="about_image">
-          <img src="../img/software_image.png" width="600px" height="350px" alt="">
-        </div>
-      </div>
-
-      </main>
-      <footer class="footer-basic-centered">
-      <p class="footer-links1">
-        <a href="home.html">Trang chủ</a>
-  ·
-        <a href="">Toán</a>
-  ·
-        <a href="">Văn</a>
-  ·
-        <a href="">Tiếng Anh</a>
-  ·
-        <a href="">KHTN</a>
-  .      
-        <a href="">KHXH</a>
-      </p>
-  
-      <p class="footer-links">
-          <a href="#">Chính sách bảo mật</a>
-          ·
-          <a href="#">Điều khoản</a>
-          ·
-          <a href="">&amp;ELeMat</a>
-      </p>
-  
-      <p class="footer-company-name">Copyright &copy; 2022</p>
-  
-  </footer>
+</main>
   `
   components.playScreen = `
   <style>
