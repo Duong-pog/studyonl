@@ -20,7 +20,32 @@ components.homeScreen = `
       </div>
 
       <div class = 'mon_toan'>
-        
+            <div class="mon_toan_description">
+                  <div>
+                        <div>Kiến thức</div>
+                        
+                        <p>1. Tổng hợp kiến thức cơ bản trong sách giáo khoa</p>
+                        <p>2. Tổng hợp các dạng bài và phương pháp giải</p>
+                        <p>3. Đơn giản hoá kiến thức dưới dạng hình ảnh, sơ đồ tư duy, và sổ ghi chú</p>
+                        
+                  </div>
+                  <div>
+                        <div>Bài tập</div>
+                        
+                        <p>1. Được phân theo các dạng độc lập, kèm theo ví dụ và lời giải minh hoạ</p>
+                        <p>2. Bài tập trắc nghiệm được sắp xếp theo mức độ từ dễ đến khó, kèm lời giải chi tiết</p>
+                        
+                  </div>
+                  <div>
+                        <div>Mẹo làm bài</div>
+                        
+                        <p>1. Mẹo làm bài theo phương thức trắc nghiệm</p>
+                        <p>2. Mẹo làm bài tập hình học với hình không gian phức tạp</p>
+                        <p>3. Mẹo ôn luyện và luyện thi sao cho có hiệu quả</p>
+    
+                  </div>
+            </div>
+            <img class = 'mon_toan_image' src="../img/girl2.png" alt="">
       </div>
 
       <div class = 'mon_van'>
@@ -32,7 +57,13 @@ components.homeScreen = `
                   <li>Dàn ý chi tiết đầy đủ</li>
             </ul>
       </div>
+
+      <div class = 'mon_anh'>
+
+      </div>
       
+      
+
 
 
 </main>

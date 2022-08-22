@@ -74,6 +74,7 @@
 	background-size: 40px;
     cursor:default;
     transition: 600ms;
+    font-family: 'Noto Serif', serif;
 }
 
 .about_description li:hover{
@@ -97,28 +98,45 @@
     justify-content: space-around;
 }
 .mon_toan_description div{
-    background-color: #14464b;
+    background-color: #006e72;
     border-radius: 10px;
     width: 30%;
     padding-bottom: 10%;
+    cursor:default;
     /* text-align: center; */
 }
 
-.mon_toan_description div ol li{
-    color: yellow;
-    padding:5px;
+.mon_toan_description div p{
+    color: #ffdd64;
+    padding-left:15px;
+    padding-bottom: 15px;
+    font-family: 'Noto Serif', serif;
+    font-size: 22px;
+    cursor:default;
 }
 
+.mon_toan_description div p:hover{
+    text-shadow: #dd7915;
+}
 .mon_toan_description div div{
     width:15vw;
     font-family: 'Pacifico', cursive;
     border-radius: 30px;
     font-size:25px;
-    background-color: orange;
+    background-color: #dd7915;
     text-align: center;
     padding:10px;
-    margin: -10px auto 5px auto;
+    margin: -28px auto 5px auto;
 }
+
+.mon_toan_image{
+    position: absolute;
+    top:50vh;
+    left:47vw;
+    height: 74%;
+    width:30%;
+}
+
 .mon_van{
     background-image: url(../img/background3.png);
     background-repeat: no-repeat;
@@ -158,4 +176,13 @@
     font-size:110%;
     background-size: 55px;
     color:rgb(208, 28, 139);
+}
+
+.mon_anh{
+    background-image: url(../img/background4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: white;
+    position: relative;
 }
