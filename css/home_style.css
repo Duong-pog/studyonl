@@ -81,6 +81,44 @@
     width:90%;
 }
 
+.mon_toan{
+    background-image: url(../img/background2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+.mon_toan_description{
+    position: absolute;
+    top:27vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mon_toan_description div{
+    background-color: #14464b;
+    border-radius: 10px;
+    width: 30%;
+    padding-bottom: 10%;
+    /* text-align: center; */
+}
+
+.mon_toan_description div ol li{
+    color: yellow;
+    padding:5px;
+}
+
+.mon_toan_description div div{
+    width:15vw;
+    font-family: 'Pacifico', cursive;
+    border-radius: 30px;
+    font-size:25px;
+    background-color: orange;
+    text-align: center;
+    padding:10px;
+    margin: -10px auto 5px auto;
+}
 .mon_van{
     background-image: url(../img/background3.png);
     background-repeat: no-repeat;

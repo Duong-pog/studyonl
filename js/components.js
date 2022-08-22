@@ -19,6 +19,10 @@ components.homeScreen = `
             </ul>
       </div>
 
+      <div class = 'mon_toan'>
+        
+      </div>
+
       <div class = 'mon_van'>
             <img class = 'mon_van_image' src="../img/anh_mon_van.png" alt="">
             <ul class = 'mon_van_description'>
@@ -29,6 +33,8 @@ components.homeScreen = `
             </ul>
       </div>
       
+
+
 </main>
   `
   components.playScreen = `

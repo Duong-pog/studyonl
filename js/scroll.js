@@ -1,5 +1,5 @@
 function smoothScrollIntro(){
-    document.querySelector('.about_description').scrollIntoView({
+    document.querySelector('.about').scrollIntoView({
         behavior: 'smooth'
     });
 }
