@@ -59,7 +59,13 @@ components.homeScreen = `
       </div>
 
       <div class = 'mon_anh'>
-
+            <img class="mon_anh_image" src="../img/anh_mon_anh.png" alt="">
+            <div class = 'mon_anh_flex'>
+                  <p>Flashcard dễ nhớ</p>
+                  <p>Từ vựng linh hoạt</p>
+                  <p>Bài tập đa dạng</p>
+                  <p>Theo sát bài học</p>
+            </div>
       </div>
       
       

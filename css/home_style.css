@@ -3,7 +3,7 @@
 } */
 
 /* body::after{
-    position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
+    position:absolute; width:0; height:0; overflow:auto; z-index:-1; 
     content:url(../img/homepage-bg.jpg);   
  } */
 .welcome{
@@ -59,13 +59,15 @@
     position:absolute;
     top:150%;
     width:80%;
+    height:50vh;
     color:black;
     font-family: 'Noto Serif', serif;
-
+    overflow: clip;
 }
 .about_description li{
     margin-left: 5%;
     width:80%;
+    /* height:10%; */
 	padding: 10px 0 10px 55px;
 	list-style: none;
 	background-image: url("../img/bullet.png");
@@ -113,6 +115,7 @@
     font-family: 'Noto Serif', serif;
     font-size: 22px;
     cursor:default;
+    overflow: auto; 
 }
 
 .mon_toan_description div p:hover{
@@ -170,6 +173,7 @@
 	background-size: 50px;
     cursor:default;
     transition: 300ms;
+    overflow: auto; 
 }
 .mon_van_description li:hover{
     padding:8px 45px;
@@ -180,6 +184,56 @@
 
 .mon_anh{
     background-image: url(../img/background4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+.mon_anh_image{
+    width:68%; 
+    height:75%;
+    position: absolute;
+    top:20vh;
+    left:32vw;
+}
+.mon_anh_flex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top:60vh;
+    left:41vw;
+    color:#14464b;
+    font-family: 'Quicksand', sans-serif ;
+}
+.mon_anh_flex p{
+    width: 11vw;
+    text-align: center;
+    cursor:default;
+    overflow: auto; 
+    font-size:24px;
+}
+
+
+.KHTN{
+    background-image: url(../img/background5.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+/* .mon_anh_image{
+    width:68%; 
+    height:75%;
+    position: absolute;
+    top:20vh;
+    left:32vw;
+} */
+
+.KHXH{
+    background-image: url(../img/background6.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 100vh;
