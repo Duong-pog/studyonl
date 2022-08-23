@@ -67,6 +67,14 @@ components.homeScreen = `
                   <p>Theo sát bài học</p>
             </div>
       </div>
+
+      <div class = 'KHTN'>
+           <div class = 'KHTN_flex'>
+                  <div> <span class="circle"></span> <span>Vật lí</span> </div>
+                  <div> <span class="circle"></span> <span>Hoá học</span> </div>
+                  <div> <span class="circle"></span> <span>Sinh học</span> </div>
+           </div>
+      </div>
       
       
 
