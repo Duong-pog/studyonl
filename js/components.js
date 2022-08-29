@@ -404,3 +404,18 @@ components.helpScreen = `
     </div>
     </main>
 `  
+
+components.mon_anh = 
+`
+<div class="maincontainer">
+
+      <div class="thecard" id = 'flashcard' onclick='flip()'>
+
+        <div class="thefront"><h1>Front of Card</h1><p>Từ tiếng anh ở đây</p></div>
+
+        <div class="theback"><h1>Back of Card</h1><p>Nghĩa tiếng việt ở đây</p>
+      </div>
+</div>          
+
+
+`

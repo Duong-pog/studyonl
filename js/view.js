@@ -16,6 +16,9 @@ view.setActiveScreen = (screenName) => {
     case "helpScreen":
       document.getElementById("app").innerHTML = components.helpScreen;
       break;
+    case 'mon_anh':
+      document.getElementById("app").innerHTML = components.mon_anh;
+      break;  
   }
 };
 
@@ -31,3 +34,7 @@ document.getElementById("_help").addEventListener("click", () => {
 document.getElementById("_leaderboard").addEventListener("click", () => {
   view.setActiveScreen("leaderBoard");
   });  
+
+document.getElementById("_mon_anh").addEventListener("click", () => {
+  view.setActiveScreen("mon_anh");
+});  
